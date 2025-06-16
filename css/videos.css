@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-body-color: white ;
+    --background-heading-color:rgb(220, 210, 210);
+    --p1-text-color:rgb(2, 2, 2);
+    --p1-background-color:rgba(220, 210, 210, 0.5);
+    --p1-box-shadow:rgba(0, 0, 0, 0.1);
+    --text-containter-color:rgb(50, 50, 50);
+    --text-container-background:rgba(240, 220 , 180, 0.4);
+    --hr-color:#000;
+}
+.darkmode{
+    --background-body-color: #2c2c2f ;
+    --background-heading-color:rgb(0, 0, 0);
+    --p1-text-color:rgb(255, 255, 255);
+    --p1-background-color:rgba(0, 0, 0, 0.5);
+    --p1-box-shadow:rgba(0, 0, 0, 0.1);
+    --text-containter-color:rgb(0, 0, 0);
+    --text-container-background:rgba(255, 255, 255, 0.4);
+    --hr-color:#ffffff;
+}
+body{
+    background-color: var(--background-body-color);
+}
+#heading {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--background-heading-color);
+}
+#banner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#p1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vw; 
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    color: var(--p1-text-color); 
+    background-color: var(--p1-background-color); 
+    padding: 10px 20px; 
+    border-radius: 50px; 
+    text-align: center;
+    box-shadow: 0 4px 6px var(--p1-box-shadow); 
+}
+#content {
+    display: flex;
+    flex-direction: column; 
+    gap: 30px; 
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+}
+.pair-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+.video-container {
+    flex: 0 0 60%;
+}
+.video-container iframe {
+    width: 100%; 
+    aspect-ratio: 16 / 9; 
+    border: none;
+}
+.text-container {
+    flex: 1; 
+    font-weight: bold;
+    font-size: calc(1rem + 0.5vw); 
+    text-align: left; 
+    font-family: "Oswald", sans-serif;
+    color: var(--text-containter-color);
+    background-color: var(--text-container-background); 
+    padding: 20px;
+    border-radius: 8px; 
+}
+@media (max-width: 768px) {
+    .pair-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .video-container, .text-container {
+        max-width: 100%; 
+        text-align: center; 
+    }
+
+    .text-container {
+        font-size: calc(0.8rem + 1vw); 
+    }
+}
+hr {
+    border: none;
+    height: 2px; 
+    background-color: var(--hr-color); 
+    margin: 20px 0; 
+}
