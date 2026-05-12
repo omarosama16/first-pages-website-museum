@@ -81,28 +81,28 @@ The videos page displays content in a structured layout:
 ---
 ## project structure
 museum-website/
-├── pictures.html
-├── videos.html
-│
-├── css/
-│   ├── style.css
-│   ├── photos.css
-│   ├── videos.css
-│   └── darkmode.css
-│
-├── js/
-│   ├── pictures.js
-│   ├── darkmode.js
-│   └── language.js
-│
-├── images/
-│   └── website images used in pages
-│
-├── assets/
-│   ├── photos.png
-│   └── videos.png
-│
-└── README.md
+|-- pictures.html
+|-- videos.html
+|
+|-- css/
+|   |-- style.css
+|   |-- photos.css
+|   |-- videos.css
+|   |-- darkmode.css
+|
+|-- js/
+|   |-- pictures.js
+|   |-- darkmode.js
+|   |-- language.js
+|
+|-- images/
+|   |-- website images used in pages
+|
+|-- assets/
+|   |-- photos.png
+|   |-- videos.png
+|
+|-- README.md
 ---
 
 ##  How to Run
