@@ -79,7 +79,7 @@ The videos page displays content in a structured layout:
 ![Videos Page](assets/videos.png)
 
 ---
-## Project Structure
+## project structure
 museum-website/
 │
 ├── pictures.html
@@ -97,14 +97,14 @@ museum-website/
 │ └── language.js
 │
 ├── images/
-│ ├── (all website images used in pages)
+│ ├── (website images used inside pages)
 │
 ├── assets/
 │ ├── photos.png
 │ ├── videos.png
+│ ├── (screenshots / previews for README)
 │
 └── README.md
-
 ---
 
 ##  How to Run
@@ -116,18 +116,26 @@ git clone https://github.com/omarosama16/first-pages-website-museum.git
 2. Open the project folder
 3. Open `pictures.html` or `videos.html` in your browser
 ---
-## Project Purpose :
+##  Project Purpose
+
 This project was built to practice:
-Front-end page structuring
-DOM manipulation with JavaScript
-Pagination logic implementation
-Dark mode toggle system
-Multilingual UI handling
-Responsive layout design
+
+- Front-end page structuring  
+- DOM manipulation with JavaScript  
+- Pagination logic implementation  
+- Dark mode toggle system  
+- Multilingual UI handling  
+- Responsive layout design  
+
 ---
-## Future Improvements
-Add homepage (landing page)
-Add smooth animations and transitions
-Upgrade video page UI
-Add search/filter for gallery
-Convert into a full museum website project
+
+##  Future Improvements
+
+- Add a homepage (landing page)  
+- Add smooth animations and transitions  
+- Upgrade video page UI  
+- Add search/filter for gallery  
+- Convert into a full museum website project  
+
+---
+
