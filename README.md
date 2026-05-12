@@ -79,7 +79,9 @@ The videos page displays content in a structured layout:
 ![Videos Page](assets/videos.png)
 
 ---
-## project structure
+##  Project Structure
+
+```text
 museum-website/
 |-- pictures.html
 |-- videos.html
@@ -103,7 +105,7 @@ museum-website/
 |   |-- videos.png
 |
 |-- README.md
----
+```
 
 ##  How to Run
 
