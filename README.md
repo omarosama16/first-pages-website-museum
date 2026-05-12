@@ -113,9 +113,10 @@ museum-website/
 ```bash
 git clone https://github.com/omarosama16/first-pages-website-museum.git
 ```
-Open the project folder
-Open `pictures.html` or `videos.html` in your browser
-Project Purpose :
+2. Open the project folder
+3. Open `pictures.html` or `videos.html` in your browser
+---
+## Project Purpose :
 This project was built to practice:
 Front-end page structuring
 DOM manipulation with JavaScript
@@ -123,8 +124,8 @@ Pagination logic implementation
 Dark mode toggle system
 Multilingual UI handling
 Responsive layout design
-
-Future Improvements
+---
+## Future Improvements
 Add homepage (landing page)
 Add smooth animations and transitions
 Upgrade video page UI
