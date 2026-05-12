@@ -87,13 +87,13 @@ museum-website/
 |-- videos.html
 |
 |-- css/
-|   |-- style.css
-|   |-- photos.css
+|   |-- footer.css
+|   |-- pictures.css
 |   |-- videos.css
-|   |-- darkmode.css
+|   |-- header.css
 |
 |-- js/
-|   |-- pictures.js
+|   |-- pics.js
 |   |-- darkmode.js
 |   |-- language.js
 |
@@ -103,6 +103,7 @@ museum-website/
 |-- assets/
 |   |-- photos.png
 |   |-- videos.png
+|   |-- Screenshots of the working website
 |
 |-- README.md
 ```
